@@ -4,10 +4,7 @@ import {REMOVE_COMMENT} from './action'
 import {THUMB_UP_COMMENT} from './action'
 import {THUMB_DOWN_COMMENT} from './action'
 
-const initialState = {
-    comments: [],
-    users: []
-};
+
 
 function comments(state = [], action) {
     switch(action.type) {
